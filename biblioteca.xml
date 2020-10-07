@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE biblioteca SYSTEM "biblioteca.dtd">
+<biblioteca>
+    <libro>
+        <autor>
+            <nombre></nombre>
+            <apellidos></apellidos>
+        </autor>
+        <titulo></titulo>
+        <genero></genero>
+        <capitulos>
+            <capitulo>
+                <nombre></nombre>
+                <inicio></inicio>
+                <final></final>
+            </capitulo>
+            <capitulo>
+                <nombre></nombre>
+                <inicio></inicio>
+                <final></final>
+            </capitulo>
+        </capitulos>
+    </libro>
+</biblioteca>

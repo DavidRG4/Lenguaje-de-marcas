@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE netflix SYSTEM "netflix.dtd">
+<netflix>
+    <serie>
+        <nombre></nombre>
+        <director><nombre></nombre><apellidos></apellidos></director>
+        <capitulo>
+            <temporada></temporada>
+            <numero></numero>
+            <orden></orden>
+        </capitulo>
+    </serie>
+
+</netflix>
