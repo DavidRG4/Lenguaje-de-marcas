@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Centro_Comercial>
+    <Tiendas>
+        <tienda nombre="" tamaño="100m²" parcelas="4">
+            <Encargado nombre="" apellidos="" telefono="" NSS=""/>
+        </tienda>
+        <tienda nombre="" tamaño="200m²" parcelas="6">
+            <Encargado nombre="" apellidos="" telefono="" NSS=""/>
+        </tienda>
+        <tienda nombre="" tamaño="124m²" parcelas="2">
+            <Encargado nombre="" apellidos="" telefono="" NSS=""/>
+        </tienda>
+    </Tiendas>
+</Centro_Comercial>

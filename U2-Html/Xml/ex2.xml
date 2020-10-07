@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Ordenador>
+    <hardware>
+        <placabase>
+            <precio> 40 </precio>
+            <fabricante>intel</fabricante>
+        </placabase>
+        <tarjetagrafica>
+            <precio>60</precio>
+            <fabricante>Nenvidia</fabricante>
+        </tarjetagrafica>
+        <ram>
+            <precio>20</precio>
+            <fabricante>intel</fabricante>
+        </ram>
+    </hardware>
+
+</Ordenador>

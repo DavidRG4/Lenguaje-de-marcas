@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE listOFMovies [
+<!ELEMENT listOFMovies (movie)>
+<!ELEMENT movie (name, nationality?, director+, actor*, everybody?) >
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT nationality (#PCDATA)>
+<!ELEMENT director (#PCDATA)>
+<!ELEMENT actor (#PCDATA)>
+<!ELEMENT everybody EMPTY>
+<!ELEMENT over-13 EMPTY>
+<!ELEMENT over-18 EMPTY>
+]>
+<listOFMovies>
+    <movie>
+        <name></name>
+        <nationality></nationality>
+        <director>manue</director>
+        <actor></actor>
+        <everybody/>
+    </movie>
+</listOFMovies>

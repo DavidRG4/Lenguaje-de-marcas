@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<horario>
+    <dia tipo="lunes">
+        <horas>
+            <hora tipo="Primera">
+                <clase></clase>
+            </hora>
+            <hora tipo="Segunda">
+                <clase></clase>
+            </hora>
+            <hora tipo="Tercera">
+                <clase></clase>
+            </hora>
+            <hora tipo="Cuarta">
+                <clase></clase>
+            </hora>
+            <hora tipo="Quinta">
+                <clase></clase>
+            </hora>
+            <hora tipo="Sexta">
+                <clase></clase>
+            </hora>
+        </horas>
+    </dia>
+     <dia tipo="Martes">
+        <horas>
+            <hora tipo="Primera">
+                <clase></clase>
+            </hora>
+            <hora tipo="Segunda">
+                <clase></clase>
+            </hora>
+            <hora tipo="Tercera">
+                <clase></clase>
+            </hora>
+            <hora tipo="Cuarta">
+                <clase></clase>
+            </hora>
+            <hora tipo="Quinta">
+                <clase></clase>
+            </hora>
+            <hora tipo="Sexta">
+                <clase></clase>
+            </hora>
+        </horas>
+    </dia>
+     <dia tipo="Miercoles">
+        <horas>
+            <hora tipo="Primera">
+                <clase></clase>
+            </hora>
+        </horas>
+         <horas>
+            <hora tipo="Segunda">
+                <clase></clase>
+            </hora>
+        </horas>
+         <horas>
+            <hora tipo="Tercera">
+                <clase></clase>
+            </hora>
+        </horas>
+         <horas>
+            <hora tipo="Cuarta">
+                <clase></clase>
+            </hora>
+        </horas>
+         <horas>
+            <hora tipo="Quinta">
+                <clase></clase>
+            </hora>
+        </horas>
+         <horas>
+            <hora tipo="Sexta">
+                <clase></clase>
+            </hora>
+        </horas>
+    </dia>
+     <dia tipo="jueves">
+        <horas>
+            <hora tipo="Primera">
+                <clase></clase>
+            </hora>
+        </horas>
+         <horas>
+            <hora tipo="Segunda">
+                <clase></clase>
+            </hora>
+        </horas>
+         <horas>
+            <hora tipo="Tercera">
+                <clase></clase>
+            </hora>
+        </horas>
+         <horas>
+            <hora tipo="Cuarta">
+                <clase></clase>
+            </hora>
+        </horas>
+         <horas>
+            <hora tipo="Quinta">
+                <clase></clase>
+            </hora>
+        </horas>
+         <horas>
+            <hora tipo="Sexta">
+                <clase></clase>
+            </hora>
+        </horas>
+    </dia>
+     <dia tipo="viernes">
+        <horas>
+            <hora tipo="Primera">
+                <clase></clase>
+            </hora>
+        </horas>
+         <horas>
+            <hora tipo="Segunda">
+                <clase></clase>
+            </hora>
+        </horas>
+         <horas>
+            <hora tipo="Tercera">
+                <clase></clase>
+            </hora>
+        </horas>
+         <horas>
+            <hora tipo="Cuarta">
+                <clase></clase>
+            </hora>
+        </horas>
+         <horas>
+            <hora tipo="Quinta">
+                <clase></clase>
+            </hora>
+        </horas>
+         <horas>
+            <hora tipo="Sexta">
+                <clase></clase>
+            </hora>
+        </horas>
+    </dia>
+</horario>

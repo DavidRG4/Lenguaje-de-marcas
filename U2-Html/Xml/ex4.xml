@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<catalogo>
+    <marcas>
+        <marca nombre="KYA" procedencia="">
+            <coche matricula="123IH" fmtricula="01/06/2020" modelo="" plaza="5" cc="136"/>
+            <coche matricula="123IH" fmtricula="02/06/2020" modelo="" plaza="5" cc="167"/>
+        </marca>
+        <marca nombre="TOYOTA" procedencia="">
+            <coche matricula="143OP" fmtricula="03/09/2020" modelo="" plaza="5" cc="167"/>
+            <coche matricula="168PO" fmtricula="03/09/2020" modelo="" plaza="5" cc="125"/>
+        </marca>
+        <marca nombre="VOLVAGEN" procedencia="">
+            <coche matricula="412ÑL" fmtricula="03/09/2020" modelo="" plaza="5" cc="168"/>
+            <coche matricula="5FSL4" fmtricula="03/09/2020" modelo="" plaza="5" cc="1361"/>
+        </marca>
+        <marca nombre="SEAT" procedencia="">
+            <coche matricula="F60L0" fmtricula="03/09/2020" modelo="" plaza="5" cc="257"/>
+            <coche matricula="135LO" fmtricula="03/09/2020" modelo="" plaza="5" cc="256"/>
+        </marca>
+        <marca nombre="" procedencia="">
+            <coche matricula="673PB" fmtricula="03/09/2020" modelo="" plaza="5" cc="2672"/>
+            <coche matricula="467MV" fmtricula="03/09/2020" modelo="" plaza="5" cc="578"/>
+        </marca>
+    </marcas>
+</catalogo>

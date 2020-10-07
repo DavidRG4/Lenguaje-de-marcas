@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<libro>
+    <caracteristicas titulo="El libro" autor="Manue" editorial="ISM" total_paginas="600">
+        <capitulos>
+            <capitulo numero="1">0-100   </capitulo>
+            <capitulo numero="2">100-200 </capitulo>
+            <capitulo numero="3">200-300 </capitulo>
+            <capitulo numero="4">300-400 </capitulo>
+            <capitulo numero="5">400-500 </capitulo>
+            <capitulo numero="6">500-600 </capitulo>
+        </capitulos>
+    </caracteristicas>
+</libro>
