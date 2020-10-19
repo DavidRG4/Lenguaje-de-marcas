@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cluster>
+    <nodo nombre="nodo1" ip="791749312">
+        <maquina nombre="VirtualBox" sistema="Linux" ip="937597239" interfaces="SLIP" mac="30-95-23-AB-BC-3A" Ip="199.168.1.58">
+        </maquina>
+        <maquina nombre="VirtualBox" sistema="Windows" ip="937597239" interfaces="FDDI" mac="30-9C-25-AB-BC-3A" Ip="192.198.1.58">
+        </maquina>
+        <maquina nombre="VirtualBox" sistema="Linux" ip="937597239" interfaces="SLIP" mac="30-9C-23-AB-BC-35" Ip="192.968.1.58">
+        </maquina>
+    </nodo>
+    <nodo nombre="nodo2" ip="791749312">
+        <maquina nombre="VirtualBox" sistema="Windows" ip="937597239" interfaces="" mac="30-9C-25-AB-BC-3A" Ip="192.968.1.58">
+        </maquina>
+        <maquina nombre="VirtualBox" sistema="Linux" ip="937597239" interfaces="SLIP Y FDDI" mac="30-9C-23-AB-5C-3A" Ip="192.168.9.58">
+        </maquina>
+        <maquina nombre="VirtualBox" sistema="Windows" ip="937597239" interfaces="" mac="30-9C-23-AB-5C-3A" Ip="192.168.1.59">
+        </maquina>
+    </nodo>
+    <nodo nombre="nodo3" ip="791749312">
+        <maquina nombre="VirtualBox" sistema="Windows" ip="937597239" interfaces="FDDI" mac="30-9C-23-AB-BC-3A" Ip="192.168.1.98">
+        </maquina>
+        <maquina nombre="VirtualBox" sistema="Linux" ip="937597239" interfaces="FDDI" mac="30-9C-23-AB-BC-3A" Ip="192.968.1.58">
+        </maquina>
+        <maquina nombre="VirtualBox" sistema="Windows" ip="937597239" interfaces="SLIP Y FDDI" mac="30-9C-23-AB-BC-3A" Ip="192.168.1.58">
+        </maquina>
+    </nodo>
+    <nodo nombre="nodo4" ip="791749312">
+        <maquina nombre="VirtualBox" sistema="Linux" ip="937597239" interfaces="FDDI" mac="30-9C-23-5B-BC-3A" Ip="192.168.1.58">
+        </maquina>
+        <maquina nombre="VirtualBox" sistema="Windows" ip="937597239" interfaces="FDDI" mac="30-9C-23-5B-BC-3A" Ip="192.198.1.58">
+        </maquina>
+        <maquina nombre="VirtualBox" sistema="Windows" ip="937597239" interfaces="SLIP" mac="30-9C-23-AB-5C-3A" Ip="192.198.1.58">
+        </maquina>
+    </nodo>
+    <nodo nombre="modo5" ip="791749312">
+        <maquina nombre="VirtualBox" sistema="Linux" ip="937597239" interfaces="FDDI" mac="30-9C-23-5B-BC-3A" Ip="192.168.1.58">
+        </maquina>
+        <maquina nombre="VirtualBox" sistema="Windows" ip="937597239" interfaces="FDDI Y FDDI" mac="30-9C-23-5B-BC-3A" Ip="192.168.1.59">
+        </maquina>
+        <maquina nombre="VirtualBox" sistema="Linux" ip="937597239" interfaces="SLIP" mac="30-9C-23-AB-BC-5A" Ip="192.198.1.58">
+        </maquina>
+    </nodo>
+</cluster>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tenis>
+    <torneo nombre="" fechainc="" fechafin="">
+        <partido>
+            <jugadores>
+                <jugador DNI="248597892B" Nombre="Jose" Apellidos="Lopez"></jugador>
+                <jugador DNI="248590892B" Nombre="Manue" Apellidos="Perez"></jugador>
+            </jugadores>
+            <resultados setstotales="5" set1="1-0" set2="2-0" set3="2-1" set4="3-1" > 
+            </resultados>
+        </partido>
+          <partido>
+            <jugadores>
+                <jugador DNI="248557892J" Nombre="Maria" Apellidos="Rivera"></jugador>
+                <jugador DNI="248697892F" Nombre="Irene" Apellidos="Perez"></jugador>
+            </jugadores>
+            <resultados setstotales="5" set1="0-1" set2="0-2" set3="0-3"> 
+            </resultados>
+        </partido>
+          <partido>
+            <jugadores>
+                <jugador DNI="248597896Ñ" Nombre="Elena" Apellidos="Gutierre"></jugador>
+                <jugador DNI="248597894k" Nombre="Maria" Apellidos="Perez"></jugador>
+            </jugadores>
+            <resultados setstotales="5" set1="1-0" set2="2-0" set3="3-0"> 
+            </resultados>
+        </partido>
+          <partido>
+            <jugadores>
+                <jugador DNI="248597758K" Nombre="Francisco" Apellidos="Lopez"></jugador>
+                <jugador DNI="248597849P" Nombre="Miguel" Apellidos="gutierrez"></jugador>
+            </jugadores>
+            <resultados setstotales="5" set1="1-0" set2="2-0" set3="2-1" set4="2-2" set5="2-3"> 
+            </resultados>
+        </partido>
+          <partido>
+            <jugadores>
+                <jugador DNI="248597772Ñ" Nombre="Patricia" Apellidos="Garcia"></jugador>
+                <jugador DNI="248599992K" Nombre="Maria" Apellidos="Rivero"></jugador>
+            </jugadores>
+            <resultados setstotales="5" set1="0-1" set2="0-2" set3="0-3"> 
+            </resultados>
+        </partido>
+          <partido>
+            <jugadores>
+                <jugador DNI="249297892H" Nombre="Luis" Apellidos="Guterrez"></jugador>
+                <jugador DNI="248507892C" Nombre="Marco" Apellidos="Perez"></jugador>
+            </jugadores>
+            <resultados setstotales="5" set1="0-1" set2="1-1" set3="1-2" set4="1-3"> 
+            </resultados>
+        </partido>
+          <partido>
+            <jugadores>
+                <jugador DNI="248517892L" Nombre="Manu" Apellidos="lopez"></jugador>
+                <jugador DNI="248597892O" Nombre="Pepe" Apellidos="Gutierre"></jugador>
+            </jugadores>
+            <resultados setstotales="5" set1="1-0" set2="2-0" set3="3-0"> 
+            </resultados>
+        </partido>
+          <partido>
+            <jugadores>
+                <jugador DNI="248597892Ñ" Nombre="Alicia" Apellidos="Rivero"></jugador>
+                <jugador DNI="248599292S" Nombre="Ana" Apellidos="Perez"></jugador>
+            </jugadores>
+            <resultados setstotales="5" set1="0-1" set2="1-1" set3="2-1" set4="2-2" set5="2-3"> 
+            </resultados>
+        </partido>
+          <partido>
+            <jugadores>
+                <jugador DNI="248597838C" Nombre="Pepe" Apellidos="Lopez"></jugador>
+                <jugador DNI="248595792P" Nombre="Alex" Apellidos="Gutierrez"></jugador>
+            </jugadores>
+            <resultados setstotales="5" set1="0-1" set2="0-2" set3="1-2" set4="1-3" > 
+            </resultados>
+        </partido>
+          <partido>
+            <jugadores>
+                <jugador DNI="248597878D" Nombre="Elena" Apellidos="lopez"></jugador>
+                <jugador DNI="248597840S" Nombre="Maria" Apellidos="Perez"></jugador>
+            </jugadores>
+            <resultados setstotales="5" set1="1-0" set2="2-0" set3="3-0"> 
+            </resultados>
+        </partido>
+    </torneo>
+</tenis>

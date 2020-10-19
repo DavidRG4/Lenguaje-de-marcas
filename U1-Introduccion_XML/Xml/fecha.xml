@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<date 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:noNamespaceSchemaLocation="fecha.xsd">
+    <year>aaa</year>
+    <month>09</month>
+    <day>14</day>
+</date>

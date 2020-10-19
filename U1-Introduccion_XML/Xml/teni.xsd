@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<schema xmlns:xs=" http://www.w3.org/2001/XMLSchema " elementFormDefault="qualified">
+    <element name="torneo">
+        <complexType>
+            <sequence>
+                <element name="nombre" type="xs:string"/>
+                <element name="partido" maxOccurs="unbounded">
+                    <complexType>
+                        <sequence>
+                            <element name="jugador" minOccurs="2" maxOccurs="4">
+                                <complexType>
+                                    <sequence>
+                                        <element name="nombre" type="xs:string"/>
+                                        <element name="FechaNac" type="xs:string"/>
+                                    </sequence>
+                                </complexType>
+                            </element>
+                        </sequence>
+                    </complexType>
+                </element>
+            </sequence>
+        </complexType>
+    </element>
+</schema>

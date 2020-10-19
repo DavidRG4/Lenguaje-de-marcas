@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<torneo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:noNamespaceSchemaLocation="tenis.xsd">
+    <nombre></nombre>
+    <partido>
+        <jugador>
+            <nombre></nombre>
+            <FechaNac></FechaNac>
+        </jugador>
+        <jugador>
+            <nombre></nombre>
+            <FechaNac></FechaNac>
+        </jugador>
+    </partido>
+    <partido>
+        <jugador>
+            <nombre></nombre>
+            <FechaNac></FechaNac>
+        </jugador>
+        <jugador>
+            <nombre></nombre>
+            <FechaNac></FechaNac>
+        </jugador>
+        <jugador>
+            <nombre></nombre>
+            <FechaNac></FechaNac>
+        </jugador>
+        <jugador>
+            <nombre></nombre>
+            <FechaNac></FechaNac>
+        </jugador>
+    </partido>
+</torneo>
