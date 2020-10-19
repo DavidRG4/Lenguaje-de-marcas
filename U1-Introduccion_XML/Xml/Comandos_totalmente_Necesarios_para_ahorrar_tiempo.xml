@@ -1,0 +1,15 @@
+//Para todos ls archivos <?xml version="1.0" encoding="utf-8"?>(menos.dtd)
+// Para el .xml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"xsi:noNamespaceSchemaLocation="note1.xsd"
+//Para el .xsd xmlns:xs="http://www.w3.org/2001/XMLSchema"elementFormDefault="qualified"
+
+/*  Hojas en .dtd (#PCDATA)
+    Hojas en .xsd type="xs.string"
+*/
+// un xs:restriction solo se puede dar cuando esta dentro de un xs.SympleType
+// en los xs:restrction se usan xs:enumeration en los que no hay type sino value="lo que se debe poner"
+// para asignar el minimo de una variable minOccurs="X"
+// para asignar el maximo de una variable maxOccurs="unbounded/X"
+// Se puede crear una restriccion con un limite de numneros con los comandos xs:minInclusive="numero mas pequeño del intervalo" y xs:maxInclusive="numero maximo del intervalo"
+// En las restriccion con el comando xs:length value="X" se determina el numero de numeros que se pueden poner con el prefijo min y max se puede delimitar mas concretamente
+// En las restriccion con el comando xs:pattern value="[A-Z] o [a-z] o [a-zA-z] o [x-Y]" se marco los caracteres unicamente validoz
+// los atributos se colocan al final del elemento con atributo

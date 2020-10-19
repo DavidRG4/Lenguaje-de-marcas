@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<curso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:noNamespaceSchemaLocation="restricciones.xsd" inicio="2020" final="2021">
+INFORMACION DEL CURSO
+    <nombre>DAW1</nombre>
+    <asignaturas>
+        <asignatura>
+            <nombre>LM</nombre>
+            <alumno>
+                    <edad>20</edad> 
+                    <nombre>Pepe</nombre>
+                    <apellidos>Pérez</apellidos>
+                    <dni>22222222X</dni> 
+            </alumno>            
+        </asignatura>
+    </asignaturas>
+</curso>

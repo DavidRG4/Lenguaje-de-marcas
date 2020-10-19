@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    <xs:element name="curso" >
+        <xs:complexType mixed="true">
+            <xs:sequence>
+                <xs:element name="nombre">
+                    <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                            <xs:enumeration value="DAW1" />
+                            <xs:enumeration value="DAW2" />
+                            <xs:enumeration value="SMR1" />
+                            <xs:enumeration value="SMR2" />
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:element>
+                <xs:element name="asignaturas">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="asignatura" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="nombre">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:string">
+                                                    <xs:enumeration value="LM" />
+                                                    <xs:enumeration value="BD" />
+                                                    <xs:enumeration value="SIST" />
+                                                    <xs:enumeration value="PROG" />
+                                                    <xs:enumeration value="FOL" />
+                                                    <xs:enumeration value="ENT" />
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:element>
+                                        <xs:element name="alumno" maxOccurs="unbounded">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="edad">
+                                                        <xs:simpleType>
+                                                            <xs:restriction base="xs:positiveInteger">
+                                                                <xs:minExclusive value="18" />
+                                                                <xs:maxExclusive value="130" />
+                                                            </xs:restriction>
+                                                        </xs:simpleType>
+                                                    </xs:element>
+                                                    <xs:element name="nombre" type="xs:string" />
+                                                    <xs:element name="apellidos" type="xs:string" />
+                                                    <xs:element name="dni">
+                                                        <xs:simpleType>
+                                                            <xs:restriction base="xs:string">
+                                                                <xs:pattern value="[0-9]{8}[a-zA-z]" />
+                                                            </xs:restriction>
+                                                        </xs:simpleType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+            <xs:attribute name="inicio" type="xs:gYear" />
+            <xs:attribute name="final" type="xs:gYear" />
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
