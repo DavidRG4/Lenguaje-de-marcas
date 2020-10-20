@@ -1,4 +1,4 @@
-//Para todos ls archivos <?xml version="1.0" encoding="utf-8"?>(menos.dtd)
+/* Para todos ls archivos <?xml version="1.0" encoding="utf-8"?>(menos.dtd) */
 // Para el .xml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"xsi:noNamespaceSchemaLocation="note1.xsd"
 //Para el .xsd xmlns:xs="http://www.w3.org/2001/XMLSchema"elementFormDefault="qualified"
 

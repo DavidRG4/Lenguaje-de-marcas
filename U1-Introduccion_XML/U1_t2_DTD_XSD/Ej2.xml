@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Biblioteca SYSTEM "Ej2.dtd">
+<Biblioteca>
+    <Libro Catalogo="">
+        <Titulo></Titulo>
+        <Seccion></Seccion>
+        <SubSeccion></SubSeccion>
+        <Contenido>
+            <Capitulo materia="XML">
+                <Tema></Tema>
+            </Capitulo>
+        </Contenido>
+        <Copyright></Copyright>
+    </Libro>
+    <Libro Catalogo="">
+        <Titulo></Titulo>
+        <Seccion></Seccion>
+        <SubSeccion></SubSeccion>
+        <Contenido>
+            <Capitulo materia="XML">
+                <Tema></Tema>
+            </Capitulo>
+            <Separacion/>
+            <Capitulo materia="XHTML">
+                <Tema></Tema>
+            </Capitulo>
+            <Separacion/>
+            <Capitulo materia="XHTML">
+                <Tema></Tema>
+                <Tema></Tema>
+                <Tema></Tema>
+            </Capitulo>
+            <Separacion/>
+        </Contenido>
+        <Copyright></Copyright>
+    </Libro>
+    
+</Biblioteca>

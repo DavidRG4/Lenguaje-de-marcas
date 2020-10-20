@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shiporder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Ej4.xsd"
+orderid="patatas">
+<orderperson>David</orderperson>
+<shipto>
+    <name>David</name>
+    <address>Manuel</address>
+    <city>Sevilla</city>
+    <country>España</country>
+</shipto>
+<item>
+    <title>patatas fritas</title>
+    <note> no te las comas todas en un dia</note>
+    <quantity>5</quantity>
+    <price>2.05</price>
+</item>
+<item>
+    <title>bacon</title>
+    <note> no te lo comas todas en un dia</note>
+    <quantity>1</quantity>
+    <price>3</price>
+</item>
+</shiporder>
