@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ej2_formulario</title>
+</head>
+
+<body>
+    <form action="https://google.es">
+        <fieldset>
+            <p>
+                <label for="usuario">usuario</label>
+                <input type="text" id="usuario" required>
+            </p>
+            <p>
+                <label for="password">contraseña</label>
+                <input type="password" id="password">
+            </p>
+            <p>
+                <label for="email">correo</label>
+                <input type="email" id="email">
+            </p>
+            <legend>Datos personales</legend>
+        </fieldset>
+        <p>
+            <select>
+                <option>hola</option>
+                <option>adios</option>
+                <option>macaco</option>
+            </select>
+        </p>
+        <p>
+            <label for="comntario"></label>
+            <textarea id="comntario" cols="30" rows="10"> Introduce comentario</textarea>
+        </p>
+        <p>
+            <button type="submit">Validar</button>
+            <button type="reset">Borrar Datos</button>
+        </p>
+        <P>
+            <label for="sexo">Genero</label><br>
+            <input type="radio" name="genero" id="sexo">hombre<br>
+            <input type="radio" name="genero" id="sexo">Mujer<br>
+            <input type="radio" name="genero" id="sexo">Otro<br>
+        </P>
+        <p>
+            <label for="modulo">Asignaturas</label><br>
+            <input type="checkbox" name="" id="modulo">PROGRAMACION<br>
+            <input type="checkbox" name="" id="modulo">ENDES<br>
+            <input type="checkbox" name="" id="modulo">SIS<br>
+            <input type="checkbox" name="" id="modulo">LM<br>
+
+        </p>
+    </form>
+</body>
+
+</html>
