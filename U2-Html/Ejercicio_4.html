@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio_4</title>
+    <style>
+        fieldset{
+            background-color: rgb(245, 240, 238) ;
+        }
+        table{
+            background-color: cornsilk;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="https://www.google.com/">
+        <fieldset>
+            <table width="100%">
+                <tr>
+                    <td><label for="Employee_Email">Employee Email</label> </td>
+                    <td><input type="email" disabled value="appuser@zohocreator.com" id="Employee_Email"></td>
+                </tr>
+                <tr>
+                    <td><label for="Employee_ID">Employee ID</label> </td>
+                    <td><input type="number" value="232" id="Employee_ID" disabled></td>
+                </tr>
+                <tr>
+                    <td><label for="Employee_Name">Employee Name</label> </td>
+                    <td><input type="text" name="Employee_Name" id="Employee_Name" value="appuser" disabled></td>
+                </tr>
+                <tr>
+                    <td><label for="Designation"> Designation </label></td>
+                    <td><input type="text" name="Designation" id="Designation" value="Team Leader" disabled></td>
+                </tr>
+                <tr>
+                    <td><label for="leave_type">leave type</label></td>
+                    <td><select name="leave_type" id="leave_type" required>
+                            <option value="Select">-Select-</option>
+                            <option value="Enfermedad">Enfermedad</option>
+                            <option value="Accidente">Accidente</option>
+                            <option value="Personal">Personal</option>
+                        </select></td>
+                </tr>
+                <tr>
+                    <td><label for="from">From</label></td>
+                    <td><input type="date" name="From" id="from" required></td>
+                </tr>
+                <tr>
+                    <td><label for="to">to</label></td>
+                    <td><input type="date" name="to" id="to" required></td>
+                </tr>
+                <tr>
+                    <td><label for="No_of_days">No of Days</label></td>
+                    <td><input type="text" id="No_of_days" name="No_of_days" required></td>
+                </tr>
+                <tr>
+                    <td><label for="Reason">Reason</label></td>
+                    <td><input type="text" id="Reason" name="Reason" height="30" width="25" required></td>
+                </tr>
+                <tr>
+                    <td style="text-align: center;" colspan="2">
+                    <input type="submit" name="submit" id="submit" value="Submit">
+                    <input type="reset" name="reset" id="reset" value="Resert">
+                </td>
+
+                </tr>
+            </table>
+            <legend>
+                <b><label for="Leave form">Leave form</label>  </b>
+                <select id="Leave form" name="Leave form" required>
+                    <option value="More actions">More actions</option>
+                    <option value="Action 1">Action 1</option>
+                    <option value="Action 2">Action 2</option>
+                </select>
+            </legend>
+        </fieldset>
+    </form>
+
+</body>
+
+</html>
