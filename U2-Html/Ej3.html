@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <fieldset style="background-color:yellow;">
+        <legend style="color: black;border:1px solid black;background-color: white;">
+            Forma Acceso
+        </legend>
+        <dl>
+            <dt><input name="Exterior" type="radio" id=""><label for="direct">Direct</label>
+            <dd><input name="interior" type="radio" id="bachillerato"><label for="bachillerato">bachillerato
+                    LOGSE</label><label for="Modalidad">.Modalidad</label><input type="text" size="20" id="Modalidad">
+            </dd>
+            <dd><input name="interior" type="radio" id="bachillerato.Experimental"> <label
+                    for="bachillerato.Experimental">Bachillerato.Experimental</label></dd>
+            <dd><input name="interior" type="radio" id="COU">COU.<label for="Opcion">Opcion</label> <input id="Opcion"
+                    type="text"></dd>
+            <dd><input name="interior" type="radio" id="FP2"><label for="FP2">FP2</label></dd>
+            <dd><input name="interior" type="radio" id="Otros"><label for="Otros">Otros</label><label
+                    for="Especifique">(Especifique)</label><input id="Especifique" type="text" size="20"></dd>
+            </dt>
+            <dt><input name="Exterior" type="radio" id="Prueba"><label for="Prueba">Prueba Libre</label>
+
+            </dt>
+        </dl>
+    </fieldset>
+    <fieldset style="background-color: red;">
+        <legend style="background-color: white; border: 1px solid black;">Documentos Adjuntados</legend>
+        <table>
+            <tr>
+                <td><input type="checkbox" name="FotocopiaDNI" id="FotocopiaDNI"><label
+                        for="FotocopiaDNI">FotocopiaDNI</label></td>
+                <td><input type="checkbox" name="Certificado" id="Certificado"><label for="Certificado">Certificado
+                        Académico</label></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="checkbox" name="OtrosD" id="OtrosD"><label for="OtrosD">Otros Documentos</label>
+                    <label for="especifique">(Especifique)</label><input type="text" size="30" id="especifique">
+
+                </td>
+
+            </tr>
+        </table>
+    </fieldset>
+
+</body>
+
+</html>

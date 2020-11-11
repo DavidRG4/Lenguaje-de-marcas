@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario_again</title>
+   <style>
+       table,td {
+        border: 1px solid black;
+    }
+   </style> 
+</head>
+
+<body>
+    <form action="https://www.google.com/">
+        <table style="border: 1px solid black;">
+            <thead>
+                <tr style="background-color: teal;text-align: center;">
+                    <td colspan="2">IES ALIXAR</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><label for="usuario">usuario:</label></td>
+                    <td><input type="text" required></td>
+                </tr>
+                <tr>
+                    <td><label for="contraseña">Password:</label></td>
+                    <td><input type="text" name="contraseña" id="contraseña" required></td>
+                </tr>
+                <tr>
+                    <td><label for="fecha_nac">Fecha Nacimiento:</label></td>
+                    <td><input type="date" name="fecha_nac" id="fecha_nac" re></td>
+                </tr>
+                <tr>
+                    <td><label for="matricula">Curso Matriculacion:</label></td>
+                    <td>
+                        <select name="matricula" id="matricula">
+                            <option value="Primero DAW1">Primero DAW1</option>
+                            <option value="Segundo DAW2">Segundo DAW2</option>
+
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td rowspan="4"><label for="Rol">Role:</label></td>
+                    <td><input type="radio" name="Rol" checked id="Rol">Estudiante</td>
+                </tr>
+                <tr>
+                    <td><input type="radio" name="Rol" id="Rol">Profesor</td>
+                </tr>
+                <tr>
+                    <td><input type="radio" name="Rol" id="Rol">Apoyo</td>
+                </tr>
+                <tr>
+                    <td><input type="radio" name="Rol" id="Rol">Staff</td>
+                </tr>
+                <tr>
+                    <td rowspan="3"><label for="Comunicacion">Forma de Comunicacion:</label></td>
+                    <td><input type="checkbox" name="Comunicacion" id="Comunicacion">Mail</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="Comunicacion" id="Comunicacion">Telefono</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="Comunicacion" id="Comunicacion">Correo Ordinario</td>
+                </tr>
+            </tbody>
+            <tfoot style="text-align: center;">
+                <tr>
+                    <td colspan="2"> <input type="submit" value="Enviar">
+                        <input type="reset" value="Borrar"></td>
+                </tr>
+            </tfoot>
+        </table>
+    </form>
+</body>
+
+</html>

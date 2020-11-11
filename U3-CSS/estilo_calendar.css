@@ -1,0 +1,29 @@
+table,td{
+    border-collapse: collapse;
+    background-color: gold;
+    border: 1px solid black;
+}
+#dia{
+    background-color: green;
+}
+#BD{
+    background-color: grey;
+}
+#FOL{
+    background-color: yellow;
+}
+#PROG{
+    background-color: teal;
+}
+#SI{
+    background-color: tomato;
+}
+#LM{
+    background-color: salmon;
+}
+#Endes{
+    background-color: slateblue;
+}
+#Endes,#LM,#PROG,#dias,#LM,#SI,#FOL,#BD{
+    padding: 0.5rem;
+}
