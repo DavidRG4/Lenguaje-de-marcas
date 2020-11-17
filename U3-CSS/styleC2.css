@@ -1,0 +1,35 @@
+table,tr,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+tbody tr td:nth-child(1){
+    background-color: green;
+}
+.recreo{
+    background-color: yellow;
+    
+}
+thead tr th::first-letter{
+    font-size: 2rem;
+}
+input:required{
+border: 1px solid red;
+border-collapse: collapse;
+padding: 10px;
+} 
+input:focus{
+    border: 5px solid green;
+    border-collapse: collapse;
+padding: 10px;
+}
+.asterisco{
+    color: red;
+}
+tr th:last-child :hover
+tr td:last-child:hover{
+    font-size: 2rem;
+}
+a {
+    font-style: unset;
+    
+}
