@@ -1,0 +1,37 @@
+table,th,tr,td{
+border: 1px solid black;
+background-color: blue;
+border-collapse: collapse;
+}
+.tipos{
+    background-color: red;
+    color: white;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+ul{
+    text-align: left;
+    color: red;
+}
+.imag{
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+.capacidad{
+    
+    background-color: gray;
+font-size: 2rem;
+}
+.coloresp1{
+    background-color: white;
+}
+.pantalla{
+    padding: 0%;
+    background-color: red;
+    color: white;
+}
+.tiempo_cargap2{
+    padding: 2rem 1.5rem 2rem 1.5rem;
+    background-color: yellow;
+}
