@@ -1,0 +1,40 @@
+
+table{
+    width: 100%;
+    border: unset;
+    border-collapse: collapse;
+}
+thead {
+    background-color: yellow;
+    font-size: 2rem;
+}
+ul{
+    list-style: none;
+    padding-left: 0rem;
+    padding-top: 0rem;
+}
+.email{
+    text-align: center;
+}
+.secundaria{
+    border: 2px dashed green;
+    border-collapse: collapse;
+    text-align: right;
+    margin: 0px 0px 0px auto;
+    width: 50%;
+}
+.izquierda{
+    border-left: 1px solid green;
+}
+.fecha{
+    border-left: 1px solid green;
+font-weight: bold;
+}
+tbody tr:nth-child(2){
+    vertical-align: top;
+}
+tbody tr:nth-child(1) td:nth-child(3){
+    vertical-align: top;
+   
+}
+

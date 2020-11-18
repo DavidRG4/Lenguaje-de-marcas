@@ -1,0 +1,30 @@
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 25%;
+   
+}
+thead{
+    background-color: gray;
+    color: cyan;
+    font-size: 3rem;
+    text-align: center;
+    font-weight: bold;
+}
+.apartado{
+    font-size: 1.5rem;
+    color: darkred;
+    font-family: monospace;
+    padding: 1rem;
+    padding-left: 0rem;
+    }
+.fecha{
+    font-weight: bold;
+    vertical-align: top;
+    padding: 0.5rem;
+    padding-right: 3rem;
+}
+ul{
+    list-style: none;
+    padding-left:  0%;
+}
