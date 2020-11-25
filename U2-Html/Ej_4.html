@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio4_Examen</title>
+<style>
+    .rojo{
+        color: red;
+    }
+    .primera{
+        border: 3px solid blue;
+    }
+    legend{
+        color: blue;
+        font-weight: bold;
+    }
+   
+</style>
+</head>
+
+<body>
+    <form action="http://aulavirtual.iesalixar.org/mod/assign/view.php?id=8682">
+        <table class="primera">
+            <thead>
+                <tr>
+                    <td><h2>Reservation Request</h2> </td>
+                </tr>
+            </thead>
+            <tbody>
+                <td>
+                    <fieldset>
+                        <table>
+                            <tr>
+                                <td><label for="Arrival Date">Arrival Date</label></td>
+                                <td><input type="date/month/week" value="12/39/2016"> 
+                                </td>
+                                <td class="rojo"> Arrival date is Invalid</td>
+                            </tr>
+                            <tr>
+                                <td><label for="Night">Night</label></td>
+                                <td><input id="Night" type="text" value="three"></td>
+                                <td class="rojo">Nigths must be a numbre</td>
+                            </tr>
+                            <tr>
+                                <td><label for="Adults">Adults</label></td>
+                                <td>
+                                    <select value="Adults">
+                                        <option name="1" id="Adults">1</option>
+                                        <option name="2" id="Adults">2</option>
+                                        <option name="3" id="Adults">3</option>
+                                        <option name="4" id="Adults">4</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><label for="Children">Children</label></td>
+                                <td>
+                                    <select value="Children">
+                                        <option name="5" id="Children">0</option>
+                                        <option name="6" id="Childre">1</option>
+                                        <option name="7" id="Children">2</option>
+                                        <option name="8" id="children">3</option>
+                                    </select>
+                                </td>
+                            </tr>
+                        </table>
+                        <legend>General information</legend>
+                    </fieldset>
+                    <fieldset>
+                        <table>
+                            <tr>
+                                <td><label for="RoomType">Room Type:</label></td>
+                                <td>
+                                    <input id="Room Type:" type="radio">Standard
+                                    <input id="Room Type:" type="radio">Business
+                                    <input id="Room Type:" type="radio">Suite
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><label for="BedType">Bed Type:</label></td>
+                                <td><input id="BedType" type="radio">King
+                                    <input id="BedType" type="radio">Double Double</td>
+                            </tr>
+                            <tr>
+                                <td><input id="Smoking" type="checkbox"><label for="Smoking">Smoking</label></td>
+                            </tr>
+                        </table>
+                        <legend>Preferences</legend>
+                    </fieldset>
+                    <fieldset>
+                        <table>
+                            <tr>
+                                <td><label for="name">name</label></td>
+                                <td><input type="text" name="name" id="name" required> </td>
+                                <td class="rojo">Name Required</td>
+                            </tr>
+                            <tr>
+                                <td><label for="Email">Email</label></td>
+                                <td><input type="email" id="Email" value="graceyahoo.com"></td>
+                                <td class="rojo">Email adress is Invalid</td>
+                            </tr>
+                            <tr>
+                                <td><label for="Phone">Phone</label></td>
+                                <td><input type="text" name="Phone" id="Phone" value="123-456-789" ></td>
+                                <td class="rojo">Phone numbre is invalid</td>
+                            </tr>
+                        </table>
+                        <legend>Contact information</legend>
+                    </fieldset>
+                </td>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td><button type="submit">Submit reservation</button><button type="reset">reset</button></td>
+                </tr>
+            </tfoot>
+        </table>
+    </form>
+</body>
+
+</html>
