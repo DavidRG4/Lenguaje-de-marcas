@@ -1,0 +1,59 @@
+/* This is a comment */
+/* Style Sheet for Jaberwocky Tutorial */
+
+/* Body */
+body {
+    background-color: tan
+}
+-Esto le asigna a toda la pagina un background de u color determinado
+
+/* Headers */
+h1 {
+    color: maroon;
+    font-size: 20pt
+}
+-Esto cambia las modificaciones base que realiza un h1 a unas deterinadas que son asignadas en el css
+
+/* HR (Hard Rule = line) */
+hr {
+    color: navy
+}
+-El hr es usado para crear una linea negra que cubre todo el ancho de la pagina pero aqui el color es cambiado a navy 
+
+/* Paragraphs */
+p {
+    font-size: 12pt;
+    margin-left: 15px
+}
+
+
+p.verse {
+    color: maroon;
+    margin-left: 60px
+}
+-En estos dos se cambia el margen, color y tamaño de la etiquta p pero en el segundo se cambia el de una etiquta p con una clase concreta
+/* Divs */
+
+/* Links */
+a:link {
+    color: green
+}
+-En este cambia el color de aquellos links que aun no han sido visitado
+a:visited {
+    color: yellow
+}
+-En este cambia el color de aquellos links que han sido visitado
+
+a:hover {
+    color: black
+}
+-En este cambia el color del link cuando tiene el cursor encima
+a:active {
+    color: blue
+}
+-En este cambia el color del link cuando haces click en ellos
+/* Navigation */
+
+/* Classes used by all html elements */
+
+/* Ids */
