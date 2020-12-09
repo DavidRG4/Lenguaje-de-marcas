@@ -1,0 +1,53 @@
+.padre1{
+background-color: lightgreen;
+position: sticky;
+display: block;
+width: 70%;
+margin: 20px auto;
+height: 700px;
+}
+.menu{
+    background-color: gray;
+    position: sticky;
+    top: 0px;
+}
+.text-menu{
+    display: inline-block;
+    padding: 20px;
+}
+.hijo2, .hijo3 , .hijo4, .hijo5{
+    text-align: center;
+    background-color: white;
+    border: 1px solid black;
+    border-collapse: collapse;
+    border-radius: 20px;
+    display: inline-block;
+    width: 35%;
+    height: 220px;
+    
+}
+.hijo2{
+    z-index: 10;
+    top: 100px;
+    left: 60px;
+    
+}
+.hijo3{
+    z-index: 9;
+}
+.hijo4{
+    z-index: 8;
+}
+.hijo5{
+    z-index: 7;
+}
+.imagenes{
+    text-align: center;
+    width: 90%;
+    height: 150px;
+    
+}
+figure{
+    margin-left: 10px;
+    margin-right: 10px;
+}
