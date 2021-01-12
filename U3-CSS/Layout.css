@@ -3,7 +3,7 @@
 }
 /* Cabecera */
 .cabecera{
-background-color:darkolivegreen ;
+background-color:darkolivegreen;
 margin: 0px auto;
 overflow-y: auto;
 
@@ -15,46 +15,80 @@ margin: auto 20px;
 height: 90%;
 float: left;
 }
-.cabecera,h1{
+.cabecera h1{
     color: white;
     font-weight: bolder ;
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 10px;
 }
-.cabecera,p{
+
+.cabecera p{
     color: white;
+    text-align: center;
+    font-size: 1.4rem;  
+    margin-top: 0%;
 }
 /* Cuerpo */
 .cuerpo{
-    background-color: darksalmon;
-    width: 100%;    
+    background-color:burlywood;
+    width: 100%;   
+    height: 100%; 
+
 }
 /*img cuerpo*/
 .imgcuerpo{
-    background-image: url(../U2-Html/imagenes/bosquefondo.jpeg);
-    display: inline-block;
-    border: 1px solid black;
-    border-radius: 20px;
-    width: 70%;
+   display: inline-block;
+   width: 70%;
+   text-align: center;
+ 
 
+}
+.imgcuerpo img{
+  width: 50%;
+  margin-top: 50px;
+ }
+ .imgcuerpo h2{
+    width: 50%;
+    text-align: left;
+    margin-left: 320px;
+    font-size: 1.6rem;
+   }
+   .imgcuerpo p{
+    width: 50%;
+    text-align: left;
+    margin-left: 320px;
+    color: black;
+    font-style: italic;
+    font-size: 1.3rem;
 }
 
 /* Formulario Cuerpo */
 
 .formcuerpo{
     width: 20%;
+    display: inline-block;
 }
 .cabformulario{
     background-color: darkolivegreen;
-    padding: auto;
+   
     width: 100%;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
 }
 .cabformulario h1{
-    
+    color: white;
+    font-weight: bolder ;
+    padding-left: 20px;
+    padding-top: 20px;
+    margin: 0px;
 }
 .cabformulario p{
     margin-bottom: 0px;
-    padding: 10px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    color: white;
+    
 }
 .formulario{
     margin: 0px;
@@ -65,10 +99,25 @@ float: left;
 }
 .formulario label{
     padding-left: 20px;
-    padding-bottom:  10px;
+    margin-top: 10px;
     
 }
 .formulario input,select{
     margin-left: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+}
+.formulario div{
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+form{padding-top: 20px;
+padding-bottom: 20px;}
+#name{
+
+}
+#Email{
+
+}
+#Estado{
+    
 }
