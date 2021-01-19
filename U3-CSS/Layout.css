@@ -8,11 +8,15 @@ margin: 0px auto;
 overflow-y: auto;
 
 }
+/* Cabecera (Icono) */
+
 .icono{
 width: 15%;
 float: left;
 margin-left: 30px;
 }
+/* Cabecera (Texto) */
+
 .cabecera h1{
     color: white;
     font-weight: bolder ;
@@ -50,8 +54,8 @@ margin-left: 30px;
     width: 90%;
     font-size: 1.6rem;
 }
-/*img cuerpo (Conjunto/texto)*/
 
+/*img cuerpo (Conjunto/texto)*/
 
 .imgCuerpo .imgCuerpoConjunto h2{
     color: black;
@@ -63,6 +67,7 @@ margin-left: 30px;
     font-style: italic;
     font-size: 1.1rem;
 }
+
 /* Formulario Cuerpo */
 
 .formcuerpo{
@@ -92,6 +97,7 @@ margin-left: 30px;
     color: white;
     
 }
+
 /* Formulario Cuerpo (Formulario)*/
 form
 {padding-top: 20px;
@@ -104,6 +110,8 @@ padding-bottom: 20px;}
     border-bottom-left-radius: 20px;
     border-bottom-right-radius:20px ;
 }
+/* Formulario Cuerpo (Formulario/TextosEInputs)*/
+
 .formulario label{
     padding-left: 20px;
     margin-top: 10px;

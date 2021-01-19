@@ -1,0 +1,13 @@
+*{
+    box-sizing: border-box;
+}
+.contenedor{
+width: 80%;
+margin: 20px auto;
+}
+header,main{
+    display: flex;
+}
+header{
+    flex-direction: row-reverse;
+}
