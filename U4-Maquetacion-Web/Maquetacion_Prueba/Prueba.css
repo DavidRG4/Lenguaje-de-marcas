@@ -1,0 +1,133 @@
+*{
+    box-sizing: border-box;
+}
+/*cabecera*/
+.cabecera{
+    background-color: black;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.cabecera div h1{
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-left: 10px;
+    padding-top: 20px;
+    color: white;
+}
+.cabeceraderecha{
+    padding-right: 10px;
+    padding-bottom: 10px;
+    text-align: right;
+    color: white;
+}
+/*navegador*/
+.navegador{
+background-color: olivedrab;
+overflow-y: auto;
+}
+.navegador div{
+display: block;
+float: left;
+padding: 10px;
+}
+/*SubContainer*/
+.SubContainer{
+    overflow-y: auto;
+}
+/*Logo*/
+.LogoIes{
+    background-color:lightgrey;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 20px;
+    float: left;
+}
+.LogoIes div{
+    width: 80%;
+    margin: 10px auto;
+}
+.LogoIes div h4{
+   margin-bottom: 5px;
+}
+.logoimg{
+    width: 100%;
+}
+/*Panel Central*/
+.PanelCentral{
+    float: left;
+    margin: 10px;
+}
+.PanelImagen{
+    width: 90%;
+    margin: 20px auto;
+}
+.Panelimg{
+    width: 100%;
+}
+/*Categorias Panel*/
+.navCategorias{
+background-color: lightgrey;
+border-bottom: 2px solid seagreen;
+margin-bottom: 10px;
+margin-top: 40px;
+}
+.Categorias{
+    background-color: lightgrey;
+    overflow-y: auto;
+    position: relative;
+    border: 1px solid seagreen;
+}
+.Categorias img {
+    float: right;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+}
+.CategoriasArbol{
+    width: 10%;
+}
+.Categorias ul li {
+    color: seagreen;
+    font-weight: bolder;
+}
+span {
+    color:black;
+    font-weight: bolder;
+}
+ul{
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+/*Calendaio*/
+.Calendario{
+    background-color: lightgrey;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-right: 115px;
+    padding-bottom: 100px;
+    float: right;
+    width: 15%;
+}
+.CalendarioImagen h4{
+    margin-bottom: 5px;
+}
+.CalendarioImagen{
+    width: 90%;
+    margin: 10px auto;
+}
+.Calendarioimg{
+    width: 80%;
+    height: 80px;
+}
+/*Pie de pagina*/
+.PiePagina{
+    text-align: center;
+    background-color: black;
+    color: white;
+    border-bottom-right-radius:20px;
+    border-bottom-left-radius:20px;
+}
+.PiePagina p{
+    margin-bottom: 5px;
+}
