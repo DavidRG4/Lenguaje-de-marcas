@@ -1,0 +1,67 @@
+/*General*/
+*{
+    box-sizing: border-box;
+}
+img{
+width: 20%;
+}
+.container{
+    font-family: "Lobster", cursive;
+}
+p,h1,h4{
+    margin: 0px;
+}
+/*Header*/
+header{
+padding: 20px;
+text-align: center;
+margin-bottom: 20px;
+border-bottom: 1px solid black;
+}
+/*ContentWraper*/
+
+.content_wrapper{
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+    margin: 1rem;
+}
+/*Nav*/
+
+nav{
+    width: 10%;
+    padding: 10px;
+}
+nav div{
+   margin-bottom: 20px;
+}
+/*Main*/
+
+main{
+    width: 45%;
+    border: 1px solid black;
+    text-align: center;
+}
+
+main img{
+    width: 40%;
+    border-radius: 1rem;
+    height: 80%;
+   
+}
+
+article{
+    width: 35%;
+    border: 1px solid black;
+    text-align: center;
+}
+.articles{
+    display: flex;
+    margin: 1rem;
+    justify-content: end;
+}
+.articles article{
+    margin: 1rem;
+    width: 30%;
+    text-align: center;
+}

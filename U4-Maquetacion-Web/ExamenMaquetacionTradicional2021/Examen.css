@@ -1,0 +1,157 @@
+* {
+    box-sizing: border-box;
+}
+
+/*Header*/
+
+header div,
+header aside {
+    display: inline-block;
+}
+
+/*Header aside*/
+header aside {
+    width: 30%;
+    overflow-y: auto;
+    margin-left: 110px;
+}
+
+header aside p input {
+    margin-left: 95px;
+}
+
+header aside p {
+    margin-left: 0px;
+}
+
+header aside img {
+    width: 10%;
+    float: right;
+}
+
+/*Header div*/
+header div {
+    width: 60%;
+}
+
+header div img {
+    width: 45%;
+}
+
+/*nav*/
+nav {
+    background-color: deeppink;
+}
+
+ul {
+    list-style: none;
+    margin: 0px;
+    padding-left: 0px;
+}
+
+li {
+    display: inline-block;
+    padding: 15px;
+    color: white;
+}
+
+li:hover {
+    color: blue;
+}
+
+/*main*/
+main {
+    overflow-y: auto;
+}
+
+.tweets {
+    float: right;
+}
+.tweets h3{
+    margin-bottom: 0px;
+}
+.tweets img{
+    height: 400px;
+}
+.tweets p{
+margin-top: 0px;
+}
+
+
+/*imgarticulos*/
+.imgarticulos {
+    position: relative;
+    margin-top: 15px;
+}
+
+.circulos {
+    z-index: 20;
+    position: absolute;
+    bottom: 10px;
+    left: 420px;
+    font-size: 1rem;
+    color: deeppink;
+}
+
+.flechaDer {
+    position: absolute;
+    top: 110px;
+    right: 400px;
+    font-size: 2rem;
+    color: deeppink;
+
+}
+
+.flechaIzq {
+    position: absolute;
+    top: 110px;
+    left: 10px;
+    font-size: 2rem;
+    color: deeppink;
+}
+
+/*Articulo*/
+
+.ConjuntoArticulos {
+    width: 75%;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.articulo {
+    border: 1px solid deeppink;
+    width: 20%;
+    display: inline-block;
+    text-align: center;
+    border-radius: 20px;
+    margin: 5px;
+}
+
+.articulo img {
+    width: 70%;
+    height: 70px;
+    margin-top: 35px;
+}
+
+.articulo p {
+    width: 60%;
+    margin: 0 auto;
+    font-size: 16px;
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+
+
+
+/*Footer*/
+footer {
+    background-color: deeppink;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+footer p {
+    margin: 0px;
+}
