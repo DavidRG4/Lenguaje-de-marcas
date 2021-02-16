@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+.red ,.blue ,.green{
+float: left;
+padding: 2em;
+width: 100%;
+}
+.red{
+    background-color: red;
+}
+.blue{
+    background-color: blue;
+}
+.green {
+    background-color: green;
+}
+header{
+    background-color: yellow;
+    padding: 2em;
+}
+h1{
+    margin: 0px;
+}
+
+@media screen and (orientation: landscape){
+    header{
+        background-color: orange;
+        color: green;
+    }
+
+}
+@media screen and (min-width:576px ){
+    .red,.blue{
+        width: 50%;
+        float: left;
+        padding: 2em;
+    }
+    .green{
+        width: 100%;
+        float: left;
+        padding: 2em;
+    }
+
+}
+@media screen and (min-width: 992px){
+    .red
+    ,.green
+    ,.blue{
+        width: 33.33%;
+        float: left;
+        padding: 3em;
+    }
+}
