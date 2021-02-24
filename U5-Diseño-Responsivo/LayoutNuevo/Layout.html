@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Css/Layout.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <title>Layout 2</title>
+</head>
+
+<body>
+    <div class="ContainerArriba">
+        <header>
+            <h2>MAILCHIMP</h2>
+            <a href="https://www.google.com/">Login</a>
+            <button type="submit" class="botonNav"></button>
+            <nav>
+                <div class="icon"><i class="fa fa-bars"></i></div>
+                <div class="menu_item">Pircing</div>
+                <div class="menu_item">Features</div>
+                <div class="menu_item">Resources</div>
+                <div class="menu_item">Support</div>
+                <div class="menu_item">blog</div>
+            </nav>
+        </header>
+        <main>
+            <img class="imagenMono" src="" alt="mono">
+            <div class="mainText">
+                <h1>
+                    Easy Email Newsletters
+                </h1>
+                <div class="txtexplicativo">
+                    <p>
+                        MailChamp helps you design email newsletters, share them on social networks,integrate with
+                        services you alredy use, and track your results. It's like your own personal publishing
+                        platform.
+                    </p>
+                </div>
+                <button type="reset" value="Sing Up Free" class="botonSingUp"></button>
+                <p>
+                    <a href="https://www.google.com/">Need Convincing?</a>
+                </p>
+            </div>
+        </main>
+    </div>
+    <div class="ContainerAbajo">
+        <h3>What's New</h3>
+        <div class="noticias">
+            
+            <div class="noticia">
+                <img src="" alt="">
+                <h4></h4>
+                <p></p>
+            </div>
+
+            <div class="noticia">
+                <img src="" alt="">
+                <h4></h4>
+                <p></p>
+            </div>
+
+            <div class="noticia">
+                <img src="" alt="">
+                <h4></h4>
+                <p></p>
+            </div>
+
+            <div class="noticia">
+                <img src="" alt="">
+                <h4></h4>
+                <p></p>
+            </div>
+            
+        </div>     
+    </div>
+    <script>
+        $(function () {
+            //Captura del evento para mostrar u ocultar
+            $(".icon").click(function () {
+                $(".menu_item").toggle();
+            });
+            $(window).resize(function () {
+                var anchura = $(this).width();
+                if (anchura > 576) {
+                    $(".menu_item").show();
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>

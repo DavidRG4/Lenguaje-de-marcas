@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+p,h1,h2,h3,h4,h5{
+    margin: 0px;
+    padding: 0.5em;
+}
+.verde{
+    color: green;
+}
+main{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 50% 50%;
+    height: 500px;
+    width: 90%;
+}
+.images{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 50%;
+    height: 200px;
+    width: 100%;
+}
+.images img{
+    width: 100%;
+}
+.hidden{
+    visibility:collapse;
+}
+@media screen and (min-width:576px) {}
+
+@media screen and (min-width: 992px) {}
