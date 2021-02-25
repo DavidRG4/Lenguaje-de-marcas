@@ -33,12 +33,19 @@ grid-row-end: 3;
 }
 /* Cuerpo */
 .cuerpo{
+<<<<<<< HEAD
     display:grid ;
     grid-template-columns: 70%;
+=======
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+>>>>>>> 6493da4acf168c2d110088104e3b8c0bea2798cb
     background-color:burlywood;
     width: 100%;   
     padding-top: 30px;
     justify-items: center;
+<<<<<<< HEAD
 }
 /*img cuerpo (Conjunto/imagen)*/
 .imagenCuerpo {
@@ -47,6 +54,17 @@ grid-row-end: 3;
 .textCuerpoConjunto{
     width: 75%;
     margin-left: 95px;
+=======
+    align-items: center;
+}
+/*img cuerpo (Conjunto/imagen)*/
+.imagen {
+    width: 90%;
+    font-size: 1.6rem;
+>>>>>>> 6493da4acf168c2d110088104e3b8c0bea2798cb
+}
+.textCuerpoConjunto{
+    width: 70%;
 }
 /*img cuerpo (Conjunto/texto)*/
 .textCuerpoConjunto h2{
@@ -61,11 +79,18 @@ grid-row-end: 3;
 }
 /* Formulario Cuerpo */
 .formcuerpo{
+<<<<<<< HEAD
     width: 85%;
     display: inline-block;
     grid-row:1/3;
     grid-column: 2/3;
     margin-right: 100px;
+=======
+    width: 35%;
+    display: inline-block;
+    grid-column: 2/3;
+    grid-row: 1/3;
+>>>>>>> 6493da4acf168c2d110088104e3b8c0bea2798cb
 }
 /* Formulario Cuerpo (cabecera Formulario)*/
 .cabformulario{
