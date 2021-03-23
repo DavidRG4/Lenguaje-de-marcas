@@ -1,0 +1,239 @@
+* {
+    box-sizing: border-box;
+}
+
+nav,
+label,
+input {
+    display: none;
+    visibility: hidden;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+    margin: 0;
+}
+
+/*Header*/
+header {
+    display: flex;
+    align-items: center;
+    background-color: rgb(46, 46, 46);
+
+}
+
+header .buscador {
+    display: none;
+}
+
+.fa {
+    font-size: 5vw;
+    color: white;
+    padding-left: 5px;
+}
+
+.logoimg {
+    width: 30%;
+}
+
+/*Main*/
+main {
+    text-align: center;
+}
+
+.textoPrMain {
+    background-color: grey;
+    color: white;
+    font-size: 4vw;
+    padding: 5px;
+}
+
+.textoSgMain {
+    background-color: rgb(46, 46, 46);
+    color: white;
+    font-size: 2vw;
+    padding: 10px;
+}
+
+.containerRegistrador {
+    background-color: grey;
+    padding: 10px;
+}
+
+.registrador button {
+    width: 30%;
+    background-color: palevioletred;
+    border: 0px;
+    border-radius: 10px;
+    padding: 2vw;
+    font-size: 2vw;
+    color: white;
+}
+
+/*Imagenes*/
+.imagenes {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: rgb(212, 212, 212);
+    margin-top: 10px;
+}
+
+.imagen {
+    background-color: white;
+    margin: 5px;
+    padding: 5px;
+}
+
+.imagen .like i {
+    color: pink;
+}
+
+.imagen img {
+    width: 100%;
+}
+
+.imagen .like {
+    font-size: 3vw;
+}
+
+@media screen and (min-width:576px) {
+
+    label,
+    input {
+        display: block;
+        visibility: visible;
+    }
+
+    /*Header*/
+    .fa {
+        font-size: 4vw;
+        padding-left: 10px;
+    }
+
+    .logoimg {
+        width: 40%;
+        padding: 10px;
+        padding-left: 20px;
+    }
+
+    /*Main*/
+    .containerRegistrador {
+        padding-bottom: 1px;
+    }
+
+    .registrador {
+        background-color: white;
+        width: 80%;
+        margin: 10px auto;
+    }
+
+    .registrador label {
+        text-align: left;
+        padding-left: 10px;
+        padding-top: 20px;
+    }
+
+    .registrador input {
+        width: 95%;
+        margin: auto 10px;
+    }
+
+    .registrador button {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    /*Imagenes*/
+    .imagenes {
+        width: 80%;
+        margin: 10px auto;
+    }
+}
+
+@media screen and (min-width: 992px) {
+
+    nav {
+        display: inline-block;
+        visibility: visible;
+    }
+
+    header .fa {
+        display: none;
+        visibility: hidden;
+    }
+
+    header .buscador {
+        display: inline-block;
+        visibility: visible;
+    }
+
+    /*Header*/
+    .logoimg {
+        width: 25%;
+        padding: 15px;
+    }
+
+    .logo {
+        display: flex;
+        align-items: center;
+    }
+
+    ul {
+        list-style: none;
+        display: flex;
+        padding-left: 0px;
+    }
+
+    li {
+        padding-left: 10px;
+        padding-right: 10px;
+        color: white;
+        font-size: 1.5vw;
+        font-weight: bolder;
+    }
+
+    .buscador input {
+        display: inline-block;
+        width: 60%;
+    }
+
+    .buscador label {
+        color: white;
+        display: inline-block;
+
+    }
+
+    /*Main*/
+    .textoPrMain {
+        font-size: 2vw;
+    }
+
+    .textoSgMain {
+        font-size: 1vw;
+    }
+    .registrador{
+        width: 60%;
+    }
+    .registrador button {
+     padding: 1vw;
+        font-size: 1.5vw;
+    }
+    /*Imagenes*/
+
+    .imagenes {
+        width: 100%;
+        grid-template-columns: 25% 25% 25% 25%;
+    }
+
+    .imagen .like {
+        font-size: 2vw;
+    }
+
+    .imagen .like i {
+        font-size: 2vw;
+    }
+}
