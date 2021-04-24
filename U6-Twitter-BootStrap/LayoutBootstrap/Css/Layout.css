@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1,
+p,
+h2,
+h3,
+h4 {
+    margin: 0px;
+}
+
+.Mailchimp {
+    font-family: 'Lobster', cursive;
+    color: white;
+}
+
+.fondoAzul {
+    background-color: cornflowerblue;
+}
+
+.fondoGris {
+    background-color: gray;
+    padding-top: 10px;
+}
+
+header a:link,
+header a:visited,
+header a:active {
+    text-decoration: none;
+    color: white;
+    font-family: 'Lobster', cursive;
+
+}
+
+/*ContainerAbajo*/
+.ContainerAbajo {
+    text-align: center;
+    background-color: rgba(194, 193, 193, 0.767);
+    border-radius: 20px;
+}
+
+.ContainerAbajo h3 {
+    padding: 10px;
+    font-size: 9vw;
+
+}
+
+/*Header*/
+.menu_item {
+    padding: 0vw;
+    display: none;
+}
+
+.botonNav {
+    background-color: black;
+    color: white;
+    border: 0px;
+    border-radius: 10px;
+    width: 25%;
+    height: 25px;
+    font-size: 3vw;
+    font-family: 'Lobster', cursive;
+
+}
+
+.Buscador {
+    display: none;
+}
+
+/*MAIN*/
+
+.imagenMono {
+    visibility: hidden;
+    display: none;
+}
+
+.botonSingUp {
+    width: 30%;
+    height: 40px;
+    border: 0px;
+    border-radius: 10px;
+    background-color: brown;
+    color: white;
+    font-family: 'Lobster', cursive;
+
+}
+
+
+@media screen and (min-width:576px) {
+
+    .menu_item {
+        display: inline-block;
+        width: 15%;
+        font-size: 1.7vw;
+        border-right: 1px solid white;
+    }
+
+    .icon {
+        visibility: hidden;
+        display: none;
+    }
+
+    .botonNav {
+        width: 70%;
+        height: 35px;
+        font-size: 2vw;
+    }
+
+    nav {
+        width: 70%;
+        background-color: rgba(194, 193, 193, 0.945);
+        border-radius: 10px;
+    }
+
+    .Buscador {
+        display: inline-block;
+        width: 20%;
+    }
+
+    /*MAIN*/
+
+    .botonSingUp {
+        width: 40%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+
+    /*Header*/
+
+
+    .menu_item {
+        font-size: 1.2vw;
+    }
+
+    .botonNav {
+        width: 70%;
+        height: 35px;
+        font-size: 1.5vw;
+    }
+
+    /*MAIN*/
+    .botonSingUp {
+        width: 50%;
+    }
+
+}
